@@ -85,12 +85,18 @@ GitHub Repo
 ## 📷 Screenshots Included
 
 - Azure Resource Group
+![RG Overview](Resources%20creation.PNG)
 - ADLS with Bronze/Silver/Gold folders
+![ADLS Structure](Medallion%20Architecture.PNG)
 - ADF Linked Services
+![ADLS Structure](ADF_Linked_services.PNG)
 - ADF Pipelines and Data Flows
-- Azure SQL DB connection
-- Query Editor with sample queries
+![ADLS Structure](ADF_DSs_pipelines_DFs.PNG)
+![ADLS Structure](ADF_complete_df.PNG)
+- Azure SQL DB & Queries
+![ADLS Structure](ASQL_Queries_UI.PNG)
 - Final Power BI Dashboard
+![ADLS Structure](Dashboard_amazon_sales.PNG)
 
 ---
 
@@ -111,16 +117,14 @@ amazon-sales-analysis/
 ├── data/
 │   └── raw_sales.csv
 ├── documentation/
-│   ├── project_overview.md
 │   ├── architecture_diagram.png
 │   ├── *.png (ADF, LS, Dataset, SQL screenshots)
-│   └── asql_query_samples.sql
 ├── pipelines/
-│   ├── pl_github_to_bronze.json
-│   ├── pl_bronze_to_silver.json
-│   └── pl_silver_to_gold.json
+│   ├── pl_github_to_bronze.png
+│   ├── pl_bronze_to_silver.png
+│   └── pl_silver_to_gold.png
 ├── dataflows/
-│   └── df_transformations.json
+│   └── df_transformations.png
 ├── sql_scripts/
 │   └── mysql.sql
 ├── powerbi/
